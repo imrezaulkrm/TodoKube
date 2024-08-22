@@ -84,7 +84,7 @@ app.delete('/goals/:id', async (req, res) => {
 });
 
 mongoose.connect(
-  `url connect to db`,
+  `mongodb+srv://imrezaulkrm:abc123456@kubernetes.egfwv.mongodb.net/?retryWrites=true&w=majority&appName=kubernetes`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
